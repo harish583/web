@@ -1,0 +1,465 @@
+<html>
+    <body>
+        <style>
+            table {
+                border-collapse: collapse;
+                width:100%;
+                color:rgb(44,40,60)
+            }
+            th,td {
+                border:1px solid black;
+                text-align: center;
+                padding: 5px;
+            }
+            tr:nth-child(even){
+
+                background-color: #dddddd;
+            }
+        </style>
+        <h1 style="color:red;width:100%;text-align:center;">HTML NOTES</h1>
+        <ul>
+            <li><b>html:</b>Hyper text markup language</li>
+            <li>The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;.</li>
+            <li>The visible part of the HTML document is between &lt;body&gt; and &lt;/body&gt;.</li>
+            <li>An HTML element usually consists of a start tag and end tag, with the content inserted in between:
+            <ul>
+                <li>&lt;tagname&gt;Content goes here...&lt;tagname&gt;</li>
+                <li> The HTML element is everything from the start tag to the end tag:</li>
+                <li>&lt;p&gt; My first paragraph.&lt;p&gt;</li>
+            </ul>
+            </li>
+            <h2>HTML Headings</h2>
+            <ul><li>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.</li>
+                <li>&lt;h1&gt;defines the most important heading. &lt;h6&gt; defines the least important heading: </li>
+                <li>
+                <h3>HTML Horizontal Rules</h3>
+                   <ul><li> The &lt;hr&gt; tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.</li>
+                   <li>The &lt;hr&gt; element is used to separate content (or define a change) in an HTML page:</li>
+                    </li>
+                </ul>
+            </ul>
+            <h2>HTML Paragraphs</h2>
+            <ul><li>With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.</li>
+                <li>The browser will remove any extra spaces and extra lines when the page is displayed:</li>
+                <li>HTML paragraphs are defined with the &lt;p&gt; tag:</li>
+                <li>HTML links are defined with the &lt;a&gt; tag:</li>
+            </ul>
+            <h2>The HTML &lt;pre&gt; Element</h2>
+                    <ul><li>The HTML &lt;pre&gt; element defines preformatted text.</li>
+                        <li>The text inside a &lt;pre&gt; element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks</li>          
+                    </ul>
+            <h1> HTML<mark>Attributes</mark></h1>
+            <ul><li>All HTML elements can have attributes</li>
+                <li>Attributes provide additional information about an element</li>
+                <li>Attributes are always specified in the start tag</li>
+                <li>Attributes usually come in name/value pairs like: name="value"</li>
+            </ul>
+            <h2>The <ins>href</ins> Attribute</h2>
+            <ul><li>HTML links are defined with the &lt;a&gt; tag. The link address is specified in the href attribute:
+                <li>href	Specifies the URL (web address) for a link</li>
+            </ul>
+            <h2>The <ins>src</ins> Attribute</h2>
+            <ul><li>HTML images are defined with the &lt;img&gt; tag.</li>
+                <li>The filename of the image source is specified in the src attribute:</li>
+                <li>src	Specifies the URL (web address) for an image</li>
+            </ul>
+            <h2>The <ins>width</ins> and height Attributes</h2>
+            <ul><li> Images in HTML have a set of size attributes, which specifies the width and height of the image:</li>
+                        
+            </ul>
+            <h2>The <ins>alt</ins> Attribute</h2>
+            <ul><li>HTML images are defined with the &lt;img&gt; tag.</li>
+                <li>The source file (src), alternative text (alt), width, and height are provided as attributes:</li></ul>
+                <ul><li>The alt attribute specifies an alternative text to be used, when an image cannot be displayed.</li>
+                    <li>alt	Specifies an alternative text for an image, when the image cannot be displayed</li>
+                </ul>                   
+            <h2>The <ins>style</ins> Attribute</h2>
+            <ul><li>The style attribute is used to specify the styling of an element, like color, font, size etc.</li>
+                <li>style	Specifies an inline CSS style for an element</li>
+                <li>Setting the style of an HTML element, can be done with the style attribute.</li>
+                <li>HTML style attribute has the following syntax:</li>
+                <ul>&lt;tagname style="property:value;"&gt;
+                    <li>The<b> background-color </b>property defines the background color for an HTML element</li>
+                    <ol><li><p>&lt;p style="background-color:#ff6347;"&gt;#ff6347</p></li>
+                        <p style="background-color:#ff6347;">#ff6347</p>
+                       <li>< p style="background-color:hsl(9, 100%, 64%);"&gt;hsl(9, 100%, 64%)< /p></li>
+                        <p style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</p>
+                        <li><p>&lt;p style="background-color:Tomato;"&gt;Lorem ipsum...</p></li>
+                        <p style="background-color:Tomato;">Lorem ipsum...</p>
+                        <li><p>&lt;p style="background-color:rgb(255, 99, 71);"&gt;rgb(255, 99, 71)</p></li>    
+                        <p style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</p>
+                        <li>&lt;p style="background-color:rgba(255, 99, 71, 0);"&gt;rgba(255, 99, 71, 0)</p>
+                        <p style="background-color:rgba(200, 99, 71, 0.5);">rgba(255, 99, 71, 0.8)</p>
+                    </ul>
+                               
+                    <li>The <b>color</b> property defines the text color for an HTML element:</li>
+                    <ul><li>&lt;p style="color:blue;"&gt;This is a heading</p></li>
+                        <p style="color:blue;">This is a heading</p>
+                        <li>&lt;p style="color:red;"&gt;This is a paragraph.</p></li>
+                        <p style="color:red;"&gt>This is a paragraph.</p>
+                        <ul><li>In HTML, a color can be specified by using a color name:</li>
+                        </ul> 
+                    </ul>
+                    <p><b>Border Color</b></p>
+                    <ul>
+                        <li>You can set the color of borders:</li>
+                        <li>&lt;p style="border: 2px solid DodgerBlue;"&gt;Hello World</p></li>
+                        <p style="border: 2px solid DodgerBlue;">Hello World</p></li>
+
+                    </ul>       
+                    <li>The <b>font-family</b> property defines the font to be used for an HTML element:</li>
+                    <ul><li>&lt;h1 style="font-family:verdana;"&gt;This is a heading</h1></li>
+                        <li>&lt;p style="font-family:courier;"&gt;This is a paragraph.</p></li>
+                    </ul>
+                    <li>The <b>font-size</b> property defines the text size for an HTML element:</li>
+                    <ul>
+                        <p style="font-size:300%;">
+                            &lt;p style="font-size:300%;">This is a paragraph&lt;/p&gt
+                        </p>
+                    </ul>
+                    <li>The <b>text-align</b> property defines the horizontal text alignment for an HTML element:</li>
+                    <ul>
+                            <p style="text-align:center;">
+                                &lt;p style="text-align:center;"&gt;Centered data&lt;/p&gt;
+                            </p>
+                    </ul>
+                    <h3>Chapter Summary</h3>
+                    <ul><li>Use the style attribute for styling HTML elements</li>
+                        <li>Use background-color for background color</li>
+                        <li>Use color for text colors</li>
+                        <li>Use font-family for text fonts</li>
+                        <li>Use font-size for text sizes</li>
+                        <li>Use text-align for text alignment</li>
+                    </ul>
+                </ul>
+            </ul>
+            <h2>The <ins>title</ins> Attribute</h2>
+            <ul><li>Here, a title attribute is added to the &lt;p&gt; element. The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph:</li>
+                <li>title	Specifies extra information about an element (displayed as a tool tip)</li>
+                <li><p title="i am tooltip">Hover me</p></li>
+            </ul>
+            <li><h3><ins>Chapter Summary</ins></h3>
+            <ul><li>All HTML elements can have attributes</li>
+                <li>The title attribute provides additional "tool-tip" information</li>
+                <li> The <b>href</b> attribute provides address information for <b>links</b></li>
+                <li>The <b>width and height </b>attributes provide size information for <b>images</b></li>
+                <li>The <b>alt</b> attribute provides text for screen readers</li>
+                <li> we always use <b>lowercase attribute</b> names</li>                    
+                <li>HTML buttons are defined t;br&gt; is an empty element without a closing tag (the &lt;br&gt; tag defines a line break).</li>
+                <li>with the &lt;button&gt; tag: we can create button</li>
+                <li>HTML lists are defined with the &lt;ul&gt; (unordered/bullet list) or the &lt;ol&gt; (ordered/numbered list) tag, followed by &gt;li&gt; tags (list items):</li>
+                <li>Empty elements can be "closed" in the opening tag like this:&lt;br/&gt;.</li>
+                    
+            </u>
+            <p><b>comment tag</b></h2>
+            <ul><li> Comments are not displayed by the browser, but they can help document your HTML source code.</li>
+                <li>&lt;!-- This is a comment --&gt;</li>
+                <li><!-- This is a comment --></li>
+            </ul>
+            <p><b>html links</b></p>
+            <ul><li>&lt;a href="url"&gt;link text</a></li>
+                <a href="url">link text</a>
+                <p>link types </p>
+                <ul><li>link:An unvisited link</li>
+                    <li>visited:A visited link</li>
+                    <li>hover:when scurser on link </li>
+                    <li>active:when its activat</li>
+                </ul>
+                <pre>
+                    &lt;style&gt;
+                        a:link {
+                            color: green; 
+                            background-color: transparent; 
+                            text-decoration: none;
+                        }
+                        
+                        a:visited {
+                            color: pink;
+                            background-color: transparent;
+                            text-decoration: none;
+                        }
+                        
+                        a:hover {
+                            color: red;
+                            background-color: transparent;
+                            text-decoration: underline;
+                        }
+                        
+                        a:active {
+                            color: yellow;
+                            background-color: transparent;
+                            text-decoration: underline;
+                        }
+
+                    &lt;/style&gt;
+                </pre>
+                <p><b>target </b>attribute</p>
+                <ul>
+                    <li>_blank : Opens the linked document in a new window or tab</li>
+                    <ul><li>&lt;a href="https://www.w3schools.com/html/" target="_blank"&gt;Visit our HTML tutorial!</a>
+                        <a href="https://www.w3schools.com/html/" target="_blank">Visit our HTML tutorial!</a></li>
+                    </ul>
+                    <li>_self : Opens the linked document in the same window/tab as it was clicked (this is default)</li>
+                    <li>_parent : Opens the linked document in the parent frame</li>
+                    <li>_top : Opens the linked document in the full body of the window</li>
+                    <ul><li><p>Locked in a frame? &lt;a href="https://www.w3schools.com/html/" target="_top"&gt;Click here!</a></p></li>
+                        <p>Locked in a frame? <a href="https://www.w3schools.com/html/" target="_top">Click here!</a></p>
+                    </ul>
+                </ul>
+                <b>html links-image as a link</b>
+                <ul><li><p>The image is a link. You can click on it.</p></li>
+                    <li>&lt;a href="default.asp"&gt; &lt;img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0"&gt;</a></li>
+                    <li><a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0"></a></li>
+                </ul>        
+                <b>link titles</b>
+                <ul><li><p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p></li>
+                    <li><a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a></li>
+                    
+                </ul>             
+                <b>create a bookmark with id attribute</b></li>
+                <ul><li>&lt;pre&gt;&lt;a href="#C3"&gt;Jump to Chapter 3</a></p>
+                    &lt;h2&gt;Chapter 1&lt;/h2&gt;
+                    <p>This chapter explains ba bla bla</p>
+                    &lt;h2&gt;Chapter 2&lt;/h2&gt;
+                    <p>This chapter explains ba bla bla</p>
+                    &lt;h2 id="C3"&gt;Chapter 3&lt;h2&gt;
+                    <p>This chapter explains ba bla bla</p></li>
+                    <p><a href="#C3">Jump to Chapter 3</a></p>
+                    <h2>Chapter 1</h2>
+                    <p>This chapter explains ba bla bla</p>
+                    <h2>Chapter 2</h2>
+                    <p>This chapter explains ba bla bla</p>
+                    <h2 id="C3">Chapter 3</h2>
+                    <p>This chapter explains ba bla bla</p>
+                </ul>
+            </ul>      
+            <ul><b>summary</b>
+                <li>Use the &lt;a&gt; element to define a link</li>
+                <li>Use the href attribute to define the link address</li>
+                <li>Use the target attribute to define where to open the linked document</li>
+                <li>Use the &lt;img&gt; element (inside &lt;a&gt;) to use an image as a link</li>
+                <li>Use the id attribute (id="value") to define bookmarks in a page</li>
+                <li>Use the href attribute (href="#value") to link to the bookmark</li>
+    
+            </ul>
+            <b>html images</b>
+            <ol><li>&lt;img src="img_girl.jpg" alt="Girl in a jacket" width="100" height="100"&gt;</li>
+                <img src="img_girl.jpg" alt="Girl in a jacket" width="100" height="100">
+                <li>&lt;img src="img_girl.jpg" alt="Girl in a jacket" style="width:100px;height:100px;"&gt;</li>
+                <img src="img_girl.jpg" alt="Girl in a jacket" style="width:100px;height:100px;">
+            </ol>
+            <b>image floating</b>
+            <p>left,right,center</p>
+            <li><p>&lt;img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;"&gt;The image will float to the right of the text.</p>
+                <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">The image will float to the right of the text.</p>
+            <b>image maps </b>
+            <p>The <map> element contains a number of <area> tags, that define the clickable areas in the image-map.</p>
+            <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+            <p>&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="40" height="37"&gt;
+            &lt;map name="workmap"&gt;
+                &lt;area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"&gt;
+                &lt;area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm"&gt;
+                &lt;area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"&gt;
+                </map> 
+            <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="40" height="37">
+
+            <p><map name="workmap">
+                <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+            </map></p>
+            <b>background image</b>
+            <ul>
+                <li>&lt;p style="background-image:url('clouds.jpg')"&gt;</p></li>
+                <li>&lt;body style="background-image:url('clouds.jpg')"&gt;
+            </ul>
+            <b>picture element</b>
+            <li> This way the browser can choose the image that best fits the current view and/or device.</li>
+            <pre>&lt;picture&gt;
+                &lt;source media="(min-width: 650px)" srcset="img_pink_flowers.jpg"&gt;
+                &lt;source media="(min-width: 465px)" srcset="img_white_flower.jpg"&gt;
+                &lt;img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;"&gt;
+            &lt;/picture&gt;</pre>
+            <picture>
+                <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+                <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+                <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+            </picture> 
+            
+            
+        </ul>
+        <h2>conclusion</h2>
+        <table>
+            <tr>
+                <th>tag</th>
+                <th>discription</th>
+                <th>example</th>
+            </tr>
+            <tr>
+                <td>&lt;b&gt;</td>
+                <td>gefine bold text</td>
+                <td>This text is <b>bold</b></td>
+            </tr>
+            <tr>
+                <td>&lt;em&gt;</td>
+                <td>define emphasized text</td>
+                <td>This text is <em>emphasized</em></td>
+            </tr>
+            <tr>
+                <td>&lt;i&gt;</td>
+                <td>defines italic test</td>
+                <td>This text is <i>italic</i></td>
+            </tr>
+            <tr>
+                <td>&lt;small&gt;</td>
+                <td>define smaller text</td>
+                <td>HTML <small>Small</small> Formatting</td>
+            </tr>
+            <tr>
+                <td>&lt;strong&gt;</td>
+                <td>Defines important text</td>
+                <td>This text is<strong>strong</strong></td>
+            </tr>
+            <tr>
+                <td>&lt;sub&gt;</td>
+                <td>Defines subscripted text</td>
+                <td>This is <sub>subscripted</sub> text.</td>
+            </tr>
+            <tr>
+                <td>&lt;sup&gt;</td>
+                <td>Defines superscripted text</td>
+                <td>This is <sup>superscripted</sup> text.</td>
+            </tr>
+            <tr>
+                <td>&lt;ins&gt;</td>
+                <td>Defines inserted text</td>
+                <td>My favorite <ins>color</ins> is red.</td>
+            </tr>
+            <tr>
+                <td>&lt;del&gt;</td>
+                <td>Defines deleted text</td>
+                <td>My favorite color is <del>blue</del> red.</td>
+            </tr>
+            <tr>
+                <td>&lt;mark&gt;</td>                               
+                <td>Defines marked/highlighted text</td>
+                <td>HTML <mark>Marked</mark> Formatting</td>
+            </tr>
+            <tr>
+                <td>&lt;q&gt;</td>
+                <td> insert quotation marks around the <q> element.</td>
+                <td>hello ,my name is <q>Harish</q></td>
+            </tr>
+            <tr>
+                    <td>&lt;blockquote&gt;</td>
+                    <td>The HTML &lt;blockquote&gt; element defines a section that is quoted from another source.</td>
+                    <td><blockquote cite="http://www.worldwildlife.org/who/index.html">
+                        For 50 years, WWF has been protecting the future of nature.</td>
+            </tr>
+            <tr>
+                <td>&lt;abbr&gt;</td>
+                <td>The HTML &lt;abbr&gt; element defines an abbreviation</td>
+                <td>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</td>
+            </tr>
+            <tr>
+                <td>&lt;bdo&gt;</td>
+                <td>The>&lt;bdo&gt; element is used to override the current text direction:</td>
+                <td>
+                    <div>&lt;bdo dir="rtl"&gt;This text will be written from right to left&lt;/bdo&gt;</div>
+                    <hr />
+                    <div><bdo dir="rtl">This text will be written from right to left</bdo></div>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td> define an image</td>
+                <td><div>&lt;img src="img_chania.jpg" alt="Flowers in Chania" width="60" height="45"&gt;</div>
+                <hr /><div><img src="img_chania.jpg" alt="Flowers in Chania" width="60" height="45"></div>
+                </td>
+            </tr>
+            <tr>
+                    <td>src</td>
+                    <td>the URL of the image</td>
+                    <td><div>&lt;img src="img_chania.jpg" alt="Flowers in Chania" width="60" height="45"&gt;</div>
+                        <hr /><div><img src="img_chania.jpg" alt="Flowers in Chania" width="60" height="45"></div>
+                    </td>
+            </tr>
+            <tr>
+                <td>alt</td>
+                <td>alternate text for an image, if it cannot be displayed</td>
+                <td><div>&lt;img src="img_chania.jpg" alt="Flowers in Chania" width="60" height="45"&gt;</div>
+                    <hr /><div><img src="img_chania.jpg" alt="Flowers in Chania" width="60" height="45"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><div>.width</div><div>height</div></td>
+                <td>define the size of the image</td>
+                <td><div>&lt;img src="img_chania.jpg" alt="Flowers in Chania" width="60" height="45"&gt;</div>
+                    <hr /><div><img src="img_chania.jpg" alt="Flowers in Chania" width="60" height="45"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;map&&gt;</td>
+                <td>define an image-map</td>
+                <td><pre>&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="40" height="37"&gt;
+                        &lt;map name="workmap"&gt;
+                        &lt;area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"&gt;
+                        &lt;area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm"&gt;
+                        &lt;area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"&gt;
+                        </map> 
+                    </pre>
+                    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="40" height="37">
+                    <map name="workmap">
+                      <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                      <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                      <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+                    </map>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;area&gt;</td>
+                <td> define the clickable areas in the image-map</td>
+                <td>
+                <pre>&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="40" height="37"&gt;
+                    &lt;map name="workmap"&gt;
+                        &lt;area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"&gt;
+                        &lt;area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm"&gt;
+                        &lt;area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"&gt;
+                    </map> 
+                </pre>
+                    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="40" height="37">
+                    <map name="workmap">
+                        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+                    </map>
+                </td>
+            </tr>
+            <tr>
+                    <td>&lt;img&gt;</td>
+                    <td>usemap attribute to point to an image-map</td>
+                    <td><div>&lt;;img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;"&gt;</div>
+                    <div><img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;"></div>
+                    </td>
+            </tr>
+            <tr>
+                    <td>&lt;picture&gt;</td>
+                    <td><div>show different images for different devices</div>
+                    <div>Defines a container for multiple image resources</div></td>
+                    <td><pre>&lt;picture&gt;
+                            &lt;source media="(min-width: 650px)" srcset="img_pink_flowers.jpg"&gt;
+                            &lt;source media="(min-width: 465px)" srcset="img_white_flower.jpg"&gt;
+                            &lt;img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;"&gt;
+                        &lt;/picture&gt;</pre>
+                        <picture>
+                            <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+                            <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+                            <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+                        </picture> </td>
+            </tr>
+            
+        </table>
+        &gt; &lt;
+    </body>
+</html>
