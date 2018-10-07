@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <style>
+            .home {
+                float:left;
+                border: 1px solid green;
+                padding: 10px;
+                background-color: #919191;
+            }
+            li {
+                list-style-type: none;
+                float:left;
+                
+                margin:10px;
+                color: aliceblue;
+            }
+            li:hover {
+                float:left;
+                border: 1px solid black;
+                margin:10px;
+                color: red;
+
+            }
+            a{
+                text-decoration: none;
+            }
+            .search {
+                background-color: #919191;
+            }
+            .x1 {
+                display: none;
+            }
+            li:hover x1 {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="home"> search engines
+            <li class="search"> mozilla
+                <ul><li><a class="x1" href="https://www.mozilla.org" target="_self">search</a></li></ul>
+            </li>
+            <li class="search"> firefox</li>
+            <li class="search">opera</li>
+            <li class="search">crome</li>
+        </ul>
+    </body>
+</html>

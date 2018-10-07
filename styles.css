@@ -1,0 +1,27 @@
+#unique {
+    background: green;
+    color: #fff;
+ }
+ .h1 {
+     color: #333;
+     font-size: 18px;
+     margin-top: 30px;
+     background: #f1f1f1;
+     padding: 10px;
+ }
+ .wip {
+     color: red;
+ }
+ .tomorrow {
+     color: green
+ }
+ .x .wip.tomorrow {
+     color: #fff
+ } 
+ .y .wip.tomorrow {
+     color: #999
+ }
+ .wip.tomorrow.danger {
+     color: yellow;
+     background: #333
+ }

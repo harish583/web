@@ -1,0 +1,32 @@
+.menu{
+                width: 100%;
+                border: 0;
+            }
+           li,a {
+              
+               list-style:none;
+                text-decoration: none;
+                text-align: inline;
+                display: inline;
+                padding: 2px;
+                text-align: center;
+           }
+           tr {
+               text-align: center;
+           }
+           ul{
+               display:inline-block;
+               text-align: left;
+               margin-top: 0px;
+               margin-left: 0px;
+           }
+           .google{
+               width: 600px;
+               //height:300px;
+               margin:0 auto;
+           }
+           li{
+            margin-left: 0px;
+            padding-left: 0px;
+               
+           }

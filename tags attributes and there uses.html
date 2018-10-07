@@ -1,0 +1,305 @@
+<html>
+    <head>
+        <title>tags attributes and uses</title>
+        <style>
+        table  {
+            width:100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        tr,th,td
+        {
+            text-align: left;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+        }
+        tr:nth-child(odd){background-color: #10ec1b9a;}
+        </style>
+    </head>
+    <body>
+        <table class="table">
+            <tr class="tr">
+                <th width="20%">elements</th>
+                <th width="50%">properties</th>
+                <th width="30%">example</th>
+            </tr>
+            <tr>
+                <td>head</td>
+                <td>
+                    <div>title,link</div>
+                    <div>style</div>
+                    <div>meta <li>name</li><li>content</li><li>charset</li></div>
+                    <div>script</div>
+                    <div>base</div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>background</td>
+                <td><div>color</div>
+                    <div>image</div>
+                    <div>position</div>
+                    <div>attachment</div>
+                    <div>clip</div>
+                    <div>origin</div>
+                    <div>size</div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>style</td>
+                <td>
+                    <div>color,background-color,border,text-decoration</div>
+                    <div>width,height,</div>
+                    <div>font-size,font-family</div>
+                    <div>text-align</div>
+                    <div>padding,margin</div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>text</td>
+                <td><div>< b> - Bold text</div>
+                    <div>< strong> - Important text</div>
+                    <div>< i> - Italic text</div>
+                    <div>< em> - Emphasized text</div>
+                    <div>< mark> - Marked text</div>
+                    <div>< small> - Small text</div>
+                    <div>< del> - Deleted text</div>
+                    <div>< ins> - Inserted text</div>
+                    <div>< sub> - Subscript text</div>
+                    <div>< sup> - Superscript text</div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>target</td>
+                <td>
+                    <div>_blank</div>
+                    <div>_self </div>
+                    <div>_parent</div>
+                    <div>_top</div>
+                    <div>framename</div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td>
+                    <div>src</div>
+                    <div>alt</div>
+                    <div>style="width:500px;height:600px</div>
+                    <div> width="500" height="600"float:right; border:0;</div>
+                    <div></div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>
+                    <div>tr</div>
+                    <div>th colspan="2" rowspan="2"div>
+                    <div>td</div>
+                    <div>border: 1px solid black; border-spacing: 5px;</div>
+                    <div> border-collapse: collapse;</div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>list-style-type</td>
+                <td>
+                    <div>disc,circle,square,none</div>
+                    <div>< ol type="1"> type="A" type="a" type="i" type="I"< /ol></div>
+                    <div>dl,dt,dd</div>
+                    <div>ul,li</div>
+                    <div>ol, li,< ol start="50">< /ol></div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>iframe</td>
+                <td>
+                    <div>src,name,style</div>
+                    <div>width</div>
+                    <div>height</div>
+                    <div></div>
+                    <div></div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>form elements</td>
+                <td>
+                    <div>< form action="/action_page.php" target="_blank" method="GET//post//"> < /form></div>
+                    <div>< input type="checkbox" >, text, radio, submit, password, reset, color, date, datetime-local, email, month, number, range, search, tel, time, url, week</div>
+                    <div><pre>< form>
+                            Enter a date before 1980-01-01:<br>
+                            < input type="date" name="bday" max="1979-12-31"><br><br>
+                            Enter a date after 2000-01-01:<br>
+                            < input type="date" name="bday" min="2000-01-02"><br><br>
+                            < input type="submit"> 
+                            <hr>
+                            Quantity (between 1 and 5):
+                            < input type="number" name="quantity" min="1" max="5">
+                            < input type="submit">
+                            <hr>
+                            Quantity:
+                                < input type="number"
+                                    name="points"
+                                    min="0"
+                                    max="100" step="10" value="30">
+                    <hr>
+                    < input type="range" name="points" min="0" max="10">
+                    <hr>
+                    Country code: < input
+                        type="text"
+                        name="country_code"
+                        pattern="[A-Za-z]{3}"
+                        title="Three letter country code"
+                    > 
+                    < input type="submit">
+                    < /form></pre><hr>
+                    </div>   
+                    <div>name="last name"</div>
+                    <div>value=""</div>
+                    <div>readonly (only for read cannot be changed)</div>
+                    <div>disabled (input field is disabled can't chhanged)</div>
+                    <div>maxlengh ( maximum allowed length for the input field)</div>
+                    <div>autofocus (the input field should automatically get focus when the page loads)</div>
+                    <div>checked="checked"</div>
+                    <div>disabled="disabled"</div>
+                    <div><mark>attributes</mark> for < input> are autocomplete, autofocus, form, formaction, formenctype, formmethod, formnovalidate, formtarget, height and width, list, min and max, multiple, pattern (regexp), placeholder, required,step</div>
+                    <div>< input type="button" onclick="alert('Hello World!')" value="Click Me!"></div>
+                </td>
+                <td><form>
+                        Enter a date before 1980-01-01:<br>
+                        <input type="date" name="bday" max="1979-12-31"><br><br>
+                        Enter a date after 2000-01-01:<br>
+                        <input type="date" name="bday" min="2000-01-02"><br><br>
+                        <input type="submit">
+                        
+                        <hr>
+                        Quantity (between 1 and 5):
+                            <input type="number" name="quantity" min="1" max="5">
+                            <input type="submit">
+                        <hr>
+                        Quantity:
+                            <input type="number" name="points" min="0" max="100" step="10" value="30">
+                        <hr>
+                        Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
+                        <input type="submit">
+                        </form><hr>
+                </td>
+            </tr>
+            <tr>
+                <td>Grouping Form Data with < fieldset></td>
+                <td>
+                    <div>< fieldset>< legend>< input>< /fieldset></div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>< select> element</td>
+                <td>
+                    <div></div>
+                    <div><pre>
+                    < select name="cars" size="3" multiple>
+                        < option value="volvo" selected>Volvo< /option>
+                        < option value="saab">Saab< /option>
+                        < option value="fiat">Fiat< /option>
+                        < option value="audi">Audi< /option>
+                    < /select></pre></div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>The < button> element defines a clickable button:</td>
+                <td>
+                    <div>< button type="button" onclick="alert('Hello World!')">Click Me!< /button></div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>datalist elements</td>
+                <td>
+                    <div><pre>< form>
+                            < input list="browsers" name="browser">
+                            < datalist id="browsers">
+                              < option value="Internet Explorer">
+                              < option value="Firefox">
+                              < option value="Chrome">
+                              < option value="Opera">
+                              < option value="Safari">
+                            < /datalist>
+                            < input type="submit">
+                          < /form>
+                        </pre>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>the output elements</td>
+                <td>
+                    <div>
+                        <pre>
+< form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+0
+< input type="range" id="a" name="a" value="50">
+100 +
+< input type="number" id="b" name="b" value="50">
+=
+< output name="x" for="a b">< /output>
+< br>< br>
+< input type="submit">
+< /form>
+                        </pre>
+                    </div>
+               </td>
+                <td><form action="/action_page.php"
+                    oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                        0
+                        <input type="range" id="a" name="a" value="50">
+                        100 +
+                        <input type="number" id="b" name="b" value="50">
+                        =
+                        <output name="x" for="a b"></output>
+                        <br><br>
+                        <input type="submit">
+                      </form>
+                      </td>
+            </tr>
+            <tr>
+                <td>text area</td>
+                <td>
+                    <div>< textarea rows="4" cols="50"> content< /textarea></div>
+                </td>
+                <td><textarea rows="4" cols="50"> content</textarea></td>
+            </tr>
+            <tr>
+                <td>position properties</td>
+                <td>
+                    <div><mark>static::</mark>is not positioned in any special way; it is always positioned according to the normal flow of the page <mark>left,right,bottom,top not working</mark></div>
+                    <div><mark>relative::</mark>Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.<mark>left,right,bottom,top not working</mark></div><br>
+                    <div><mark>fixed::</mark>means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.<mark>float not working,fixed at given top and bottom its not move</mark></div><br>
+                    <div><mark>absolute::</mark> positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.<mark>left,right,bottom,top not working</mark></div><br>
+                    <div><mark>sticky::</mark>relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+                    <mark>left,right,bottom,top not working from given position to move up to given top(bottom)after that its fixed</mark></div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>

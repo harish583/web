@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <style>
+            .x {
+                width: 50%;;
+                border: 1px solid black;
+                border-top: 0;
+                display: inline-block;
+            }
+            .y {
+                margin: 0;
+                padding: 0;
+            }
+            .list-item {
+                list-style: none;
+                padding: 10px;
+                border-top: 1px solid black;
+            }
+            .list-item:hover {
+                background: #f1f1f1;
+            }
+            .inner-list, .inner-inner-list {
+                border: 1px solid;
+                border-top: 0;
+                margin: 0;
+                padding: 0;
+                display: none;
+                margin-top: 10px;
+                background: #fff;
+            }
+            .inner-inner-list {
+                background: #d1d1d1;
+            }
+            .inner-list-item {
+                list-style: none; 
+                padding: 10px;
+                border-top: 1px solid black;
+            }
+            .list-item:hover .inner-list{
+                display: block;
+            }
+            .inner-list-item:hover .inner-inner-list{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="x">
+            <ul class="y">
+                <li class="list-item">
+                    <div class="li-content">item1</div>
+                    <ul class="inner-list">
+                        <li class="inner-list-item">item11</li>
+                        <li class="inner-list-item">item12</li>
+                        <li class="inner-list-item">item12</li>
+                    </ul>
+                </li>
+                <li class="list-item">
+                    <div class="li-content">item2</div>
+                    <ul class="inner-list">
+                        <li class="inner-list-item">
+                            <div>item21</div>
+                            <ul class="inner-inner-list">
+                                <li class="inner-list-item">item21</li>
+                                <li class="inner-list-item">item22</li>
+                                <li class="inner-list-item">item22</li>
+                            </ul>
+                        </li>
+                        <li class="inner-list-item">item22</li>
+                        <li class="inner-list-item">item22</li>
+                    </ul>
+                 </li>
+                <li class="list-item">
+                        <div class="li-content">item3</div>
+                        <ul class="inner-list">
+                            <li class="inner-list-item">item31</li>
+                            <li class="inner-list-item">item32</li>
+                            <li class="inner-list-item">item32</li>
+                        </ul>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
