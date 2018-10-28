@@ -125,6 +125,7 @@ ul {
     padding: 7px 10px;
     border: 1px solid #ccc;
     border-left-color: #999;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .input-holder textarea {
