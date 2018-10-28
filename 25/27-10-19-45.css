@@ -1,0 +1,116 @@
+body{
+    background: brown;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+    padding: 20px 0;
+
+}
+.center{
+    width: 700px;
+    margin: 0 auto;
+    
+}
+.nav-header{
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+ ul .nav-links{
+    display: inline-block;
+    min-width:50px;
+    padding:15px;
+    font-size: 23px;
+    position: relative;
+    text-transform: uppercase;
+}
+.sub-nav{
+    width: 150px;
+    top: 100%;
+    background: red;
+    color: white;
+    padding: 5px;
+    display: none;
+    position: absolute;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+    display: block;
+    color: white;
+}
+.form-header label,.text-centent{
+    float: left;
+
+}
+.form-header{
+    overflow: auto;
+    margin-top: 20px;
+}
+label{
+
+    width: 25%;
+    background-color: black;
+    color: white;
+    line-height: 2;
+    position: relative;
+    padding-left: 7px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+input{
+    width: 200%;
+    padding: 6px;    
+}
+.nav-links:hover .sub-nav{
+    display: block;
+}
+.contact-us{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 70px;
+    text-transform: uppercase;
+}
+label img{
+    width: 20px;
+    position: absolute;
+    right: -12px;
+    top: calc(50% - 10px);
+}
+.help-text{
+    font-size: 17px;
+    color: darkslategray;
+    padding-top: 5px;
+}
+.message{
+    width: 66%;
+    height: 100px;
+}
+.checkbox{
+    width: 15px;
+}
+.send-button{
+    color: white;
+    padding: 15px;
+    background-color: green;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 25%;
+    margin: 10px;
+    cursor: pointer;
+}
+.send-button:hover{
+    background-color:white;
+    color: green;
+}

@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+
+    box-sizing: border-box;
+}
+img{
+    width: 200px;
+    float: left;
+    opacity:0.5;
+}
+.tree_start{
+overflow: auto;
+
+}
+.parents img{
+    width: 90%;
+    height: 75%;
+    margin: 0 5%;
+    box-sizing: border-box;
+
+    overflow: auto;
+}
+.childrens img{
+    width: 30%;
+    height: 32%;
+    margin: 3px;
+    float: left;
+}
+.childrens{
+    display: none;
+
+}
+.childrens div{
+    display:inline-block;
+}
+.parents:hover .childrens{
+    display: inline-block;
+    position:relative;
+    
+}
+.img:hover{
+    opacity: 1;
+}
+.sub_family{
+    display: none;
+    width: 40%;
+    height: 40%;
+    position:absolute;
+}
+.childrens:hover{
+    display: block;
+}
+.childrens div:hover .sub_family {
+    display: inline;
+    background-color: aqua;
+    
+}
+.sub_family::after{
+    clear:left;
+}

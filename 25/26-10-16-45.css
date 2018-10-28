@@ -1,0 +1,127 @@
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    background: #F6F6F6;
+}
+a{
+    text-decoration: none;
+    color: #FFF8F2;
+    
+    font-family: 'Oswald', sans-serif;
+    
+    font-size: 20px;
+    
+}
+ul{
+    list-style-type: none;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+.nav-bar .nav li a{
+    display: block;
+
+    color: #757883;
+}
+.nav-bar .nav .nav-link{
+    display: inline-block;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+.nav-bar .nav li .nav-contact{
+    color: #fff;
+}
+.nav{
+    position: relative;
+}
+.nav-bar{
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    width: 100%;
+}
+.sub-nav{
+    display: none;
+    position: absolute;
+    top: 100%;
+    font-size: 14px;
+    min-width: 150px;
+    background: #517171;
+}
+.sub-nav li::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+.content{    
+    text-align: center;
+    line-height: 27px;
+    color: #7679A3;
+    font-weight: bold;
+   
+    padding-top: 40px;
+}
+.center{
+    width: 700px;
+    margin: 0 auto;
+}
+.contact{
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    font-weight: bold;
+    padding-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.sub-nav li{
+    padding: 10px;
+    
+}
+.nav-link a:hover{
+    color: white;
+}
+.nav-link:hover .sub-nav{
+    display: block;
+}
+
+.form-head label{
+    display: inline-block;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding:5px 15px;
+    font-size: 14px;
+    width:25%;
+    font-weight: bold;
+}
+.form-text{
+    padding: 5px 25px 5px 0px;
+    margin-left: 15px;
+}
+.form-head label,.form-text{
+    float: left;
+}
+.text-typing{
+    width: 50%;
+    padding: 5px 15px;
+    font-size: 14px;
+    
+}
+.form-head{
+    position: relative;
+}
+.form-head img{
+    width: 20px;
+    top: 50%;
+    position: absolute;
+}
+.text-typing {
+    width: 100%;
+}
+.inline{
+    overflow: auto;
+}
+.help-text{
+    font-size: 10px;
+}

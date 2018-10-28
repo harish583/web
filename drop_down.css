@@ -1,0 +1,27 @@
+body{
+    color:red;
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+    background-color: aqua;
+}
+.nav li{
+    float: left;
+    border: 2px solid black;
+    width: 100px;
+    text-align: center;
+    background-color: aqua;
+    display: inline-block;
+}
+.nav{
+    overflow: auto;
+    position: relative;
+}
+.sub_nav{
+    position: absolute;
+    display: block;
+    line-height: 40px;
+}

@@ -1,0 +1,117 @@
+body{
+    color: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav-header{
+    background-color: black;
+}
+.center{
+    width: 700px;
+    margin: 0 auto;
+}
+.content{
+    background-color: blue;
+    padding: 10px;
+}
+.nav-links{
+    padding: 20px;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.nav-links:hover{
+    background: beige;
+    color: black;
+}
+.nav-links:hover .sub-nav-links{
+    display: inline-block;
+    color: beige;
+    width: 120px;
+    background: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+li{
+    list-style-type: none;
+}
+.sub-nav-links{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 50px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+.contact-us{
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.discription{
+    line-height:2;
+    font-size: 20px;
+    text-align: center;
+}
+.form-row label{
+    background-color: black;
+    color: white;
+    width: 25%;
+    float: left;
+    padding: 5px;
+    position: relative;
+}
+.form-row{
+    overflow: auto;
+}
+.form-row img{
+    width: 20px;
+    top: calc(50% - 10px);
+    position: absolute;
+    right: -12px;
+}
+.text-content{
+    float: left;
+    
+    margin-left: 20px;
+}
+.text-content input{
+    padding: 5px 0px;
+    width: 150%;
+}
+.form-row{
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.buttons button{
+    width: 25%;
+    background-color: aquamarine;
+    color: blue;
+    font-size: 15px;
+    border: 0;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding: 10px; 
+}
+.extra-info{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.buttons button:hover{
+    background-color: blue;
+    color: aquamarine;
+}
+textarea{
+    width: 150%;
+    height: 150px;
+}
+.checkbox{
+    width: 20px;
+}

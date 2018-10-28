@@ -1,0 +1,109 @@
+body{
+    color: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    width: 700px;
+    margin: 0 auto;
+}
+.nav-bar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nav-links a{
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.nav-sub-links{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 50px;
+}
+.nav-links:hover .nav-sub-links{
+    display: block;
+    color: red;
+    background-color: aqua;
+    width: 100px;
+} 
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-links{
+    position: relative;
+    display: inline-block;
+}
+.contcat-us{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+.discription{
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+}
+.form-row{
+    overflow: auto;
+    margin-top: 30px;
+}
+.form-row label{
+    float: left;
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    position: relative;
+    text-transform: uppercase;
+}
+.form-row .text-bar{
+    float: left;
+    
+    margin-left: 20px;
+    
+}
+.form-row img{
+    width: 20px;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: -12px;
+}
+.form-row input{
+    padding: 5px;
+    width: 150%;
+}
+.message-box textarea{
+    height: 50px;
+    width: 150%;
+    padding: 4px;
+
+}
+.buttons button{
+    width: 25%;
+    line-height: 3;
+    background-color: blue;
+    color: black;
+    border: 0;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.buttons button:hover{
+    color:  blue;
+    background:black;;
+}
+.text-bar #checkbox{
+    width: 20px;
+}
